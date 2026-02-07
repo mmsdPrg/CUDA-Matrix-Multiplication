@@ -1,0 +1,60 @@
+# .gitignore for HW4 CUDA Project
+
+# Compiled CUDA libraries
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exp
+
+# CUDA compilation artifacts
+*.o
+*.obj
+*.ptx
+*.cubin
+*.fatbin
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data directories
+data/
+datasets/
+
+# Results and logs
+results/
+logs/
+*.log
+
+# Profiling outputs
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.sqlite
+
+# IDEs
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
